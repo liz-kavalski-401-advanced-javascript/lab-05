@@ -23,9 +23,9 @@ describe('Categories Model (Singular)', () => {
     return categories.create(obj)
       .then(record => {
         return categories.get(record._id)
-          .then(categories =>{ 
+          .then(category =>{ 
             Object.keys(obj).forEach(key =>{
-            expect(categories[0][key]).toEqual(obj[key]);})
+            expect(category[0][key]).toEqual(obj[key])})
         });
   });
 });
