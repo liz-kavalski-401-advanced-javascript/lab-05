@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-05.svg?branch=master)](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-05)
 
 [PR Request](https://github.com/liz-kavalski-401-advanced-javascript/lab-05/pull/1)
-s
+
 #### Documentation
 * None at this point.
 ### Modules
