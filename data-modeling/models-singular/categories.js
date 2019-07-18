@@ -11,7 +11,7 @@ class Categories {
 
   get(_id) {
     if(_id){
-      return schema.findOne({_id});
+      return schema.find({_id});
     }
     else{
       return schema.find({});
@@ -52,6 +52,7 @@ class Categories {
     return schema.findByIdAndDelete(_id);
 //My Notes
     //FindOneAndDelete() =Deletes a single document based on the filter and sort criteria, returning the deleted document.
+//starter code note    
     // Call the appropriate mongoose method to delete a record
   }
 
