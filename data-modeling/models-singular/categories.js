@@ -11,7 +11,7 @@ class Categories {
 
   get(_id) {
     if(_id){
-      return schema.findOne({_id});
+      return schema.find({_id});
     }
     else{
       return schema.find({});
