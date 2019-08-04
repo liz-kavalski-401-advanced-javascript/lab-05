@@ -6,17 +6,20 @@
 
 [PR Request](https://github.com/liz-kavalski-401-advanced-javascript/lab-05/pull/1)
 
-#### Documentation
-* None at this point.
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `models-modulars/categories/categories-schema.js`
+Makes a schema for categories
+#### `models-modulars/categories/categories.js`
+Connect to the categories-schema.js 
+#### `models-modulars/product/product-schema.js`
+makes a schema for product
+#### `models-modulars/product/product.js`
+makes a schema for categories
+#### `models-singular/categories-schema.js`
+makes a schema for categories
+#### `models-singular/categories.js`
+Use the mongoose methods to create, update and delete.
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
